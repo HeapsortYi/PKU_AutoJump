@@ -32,14 +32,14 @@ def pull_screenshot():  # 获取截图。screenshot_way分别对应3种截图方
         return None
 
 
-def search(img_jump=None):
+def search(screenshot=None):
     R, G, B = 255, 210, 62
 
-    if img_jump is None:
+    if screenshot is None:
         img_jump = cv2.imread('autojump.jpg')
         R, B = B, R
     else:
-        img_jump = Image.open(BytesIO(img_jump))
+        img_jump = Image.open(BytesIO(screenshot))
         img_jump = np.array(img_jump)
 
     # 经过观察发现包子的坐标是固定不变的，那么只要在右边某个固定的范围搜索有没有出现橘色的点即可。
