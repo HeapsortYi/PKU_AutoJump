@@ -6,7 +6,7 @@
 
 尝试了三种截图方法，但是因为速率还是太慢，最多只能跳到21次。。。希望有大佬能解决这个问题
 
-<p align="center"><img src="autojump.jpg" width = "270" height = "480"/></div>
+<p align="left"><img src="autojump.jpg" width = "270" height = "480"/></div>
 
 ## Requirements
 - 需要下载Adb并配置到系统路径。如果不想下载，可以直接把Tools文件夹下的所有文件复制到根目录也行
